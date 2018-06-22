@@ -2,34 +2,24 @@
 
 This project was completed as part of the interview process at Bottle Rocket.  
 
-## Requirements
+## Project Prompt
 
-High level requirements:
+### High level requirements:
 Fetch data from a web service and display the returned data in a RecyclerView
 Display the full details of a selected store on a separate screen
 
 
-Requirements
-
+### Requirements
 Build app using Android Studio, utilizing the latest Android SDK
-
 Consume and parse the following data JSON data feed: http://sandbox.bottlerocketapps.com/BR_Android_CodingExam_2015_Server/stores.json using a method of your choice
-
 Cache the data using a method of your choice
-
 Display a message to the user if a data connection or cache is not available
-
 Fetch the data asynchronously
-
 Display the returned data in a RecyclerView
 
-
-At a minimum, you should display the following items: 
-
+### At a minimum, you should display the following items: 
 Store Logo
-
 Phone Number
-
 Address
 
 
