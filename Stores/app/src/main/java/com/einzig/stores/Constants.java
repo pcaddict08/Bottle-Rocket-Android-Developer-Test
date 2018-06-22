@@ -1,9 +1,5 @@
 package com.einzig.stores;
 
-/**
- * Created by Steven Foskett on 6/21/2017.
- */
-
 public class Constants {
     public static final String DEV_URL_STRING = "http://sandbox.bottlerocketapps.com/BR_Android_CodingExam_2015_Server/stores.json";
     public static final int debug = 1;

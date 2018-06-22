@@ -20,11 +20,6 @@ import okhttp3.Request;
 import okhttp3.Response;
 import okhttp3.ResponseBody;
 
-
-/**
- * Created by Steven Foskett on 2/21/2018.
- */
-
 public class ProcessJSON extends AsyncTask<Void, List<Store>, List<Store>> {
 
     private WeakReference<MainActivity> context;

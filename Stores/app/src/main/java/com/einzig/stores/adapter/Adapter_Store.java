@@ -16,11 +16,7 @@ import com.einzig.stores.R;
 import com.einzig.stores.activities.StoreDetailsActivity;
 import com.einzig.stores.objects.Store;
 
-import org.w3c.dom.Text;
-
 import java.util.List;
-
-import static com.einzig.stores.helpers.LogHelper.log_debug;
 
 public class Adapter_Store extends RecyclerView.Adapter<Adapter_Store.ViewHolder> {
     private List<Store> list;

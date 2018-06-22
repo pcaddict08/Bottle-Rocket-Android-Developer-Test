@@ -22,8 +22,6 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static com.einzig.stores.helpers.LogHelper.log_debug;
-
 public class MainActivity extends StoreAct {
 
     @BindView(R.id.recyclerview_mainactivity)

@@ -21,7 +21,7 @@ public class Store extends SugarRecord<Store> implements Parcelable {
     String state;
 
     public String getAddress2() {
-        return city + ", " + state + " " + zipcode;
+        return getCity() + ", " + getState() + " " + getZipcode();
     }
 
     public String getAddress() {

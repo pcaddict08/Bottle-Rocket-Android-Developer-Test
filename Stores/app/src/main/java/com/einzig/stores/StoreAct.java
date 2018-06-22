@@ -1,7 +1,6 @@
 package com.einzig.stores;
 
 import android.app.Dialog;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
@@ -20,17 +19,6 @@ public class StoreAct extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    public int getBarHeight() {
-        try {
-            ActionBar ab = getSupportActionBar();
-            if (ab != null)
-                return ab.getHeight();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return 0;
     }
 
     public Dialog progressDialog;
